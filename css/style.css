@@ -1,12 +1,64 @@
-.container-fluid {
- background-color: darkgray
+body {
+    background-color: rgb(122, 173, 194);
+    margin: 0px;
+    padding: 0px;
+}
 
+#quemsomos {
+    margin: 0px
 }
 
 .quem-somos {
-    background-color: lightblue;
+    background-color: rgb(122, 173, 194);
+    margin: auto;
+    padding: 50px;
 }
 
 .margin {
-    padding-top: 50px;
+    padding: 20px;
+    margin: 0px
+
+}
+
+.txt_quemSomos {
+    text-align: left;
+}
+
+.txt_quemSomos h3 {
+    color: red;
+}
+
+.nav-link {
+padding: 50px;
+}
+
+.container-fluid {
+    background-color: rgb(173, 211, 223);
+}
+
+.row {
+    background-color: rgb(174, 195, 204);
+}
+
+.servicos_1 {
+    background-color: rgb(173, 211, 223)
+}
+
+.text-2 {
+    padding-bottom: 145px;
+}
+
+.txt-3 {
+    padding-bottom: 120px;
+}
+
+#servicos p {
+    margin: 0px;
+    text-align: left;
+}
+
+footer {
+    color: black;
+    background-color: gray;
+    text-align: center;
 }

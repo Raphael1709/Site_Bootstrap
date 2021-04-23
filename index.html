@@ -1,48 +1,153 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Minha Página</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Pagina Bootstrap</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="./img/logotipo.pnj.png" alt="" width="200px" height=" 50px" >
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./img/logotipo.pnj.png" alt="" width="200px" height=" 50px">
 
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Quem somos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Parceiros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Serviços</a>
-                </li>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#quemsomos">Quem somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#parceiros">Parceiros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicos">Serviços</a>
+          </li>
+      </div>
+  </nav>
+  </nav>
+
+  <section id="quemsomos">
+
+    <div class="container-fluid quem-somos text-center margin">
+      <h3>Quem somos</h3>
+
+      <br><img src="./img/time.png" alt="" class="rounded-circle" width="300px" height="300px">
+
+      <div class="txt_quemSomos">
+
+        <br>
+        <h3> História</h3>
+
+        <p>Nesta parte, você contará sobre a criação e progresso da empresa, até os dias atuais.
+          Ex: fundada em 1900, estamos no mercado de [segmento] há XX anos…</p>
+
+        <h3>Diferenciais</h3>
+
+        <p>O que sua empresa oferece de diferencial. Ex: no atendimento, nos produtos e serviços, na entrega, no
+          pagamento.
+          Seja breve, claro e sucinto quanto às características que diferenciam seu negócio dos concorrentes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="parceiros">
+    <div class="container-fluid text-center margin">
+      <h3>Parceiros</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="./img/logohttp.png" alt="" class="rounded-circle" width="300px" height="300px">
           </div>
-        </nav>
-    </nav>
 
-<section id="quem_somos">
-  <div class="container-fluid quem-somos text-center margin">
-     <p>-----Teste-------</p>
-  </div>
+          <div class="col-lg-4">
+            <img src="./img/city.png" alt="" class="rounded-circle" width="300px" height="300px">
+          </div>
 
-</section>
+          <div class="col-lg-4">
+            <img src="./img/teach.png" alt="" class="rounded-circle" width="300px" height="300px">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos">
+    <div class="container-fluid text-center margin servicos">
+      <h3>Serviços</h3>
+      <div class="container">
+        <div class="row servicos_1">
+          <div class="col-lg-4">
+            <p>Na hora de fazer uma descrição para determinado serviço você deve sempre pensar como um cliente. Imagine
+              se você fosse o cliente, o que gostaria de saber sobre aquele serviço? Responda algumas perguntas para que
+              seja possível descrever seus serviços da melhor maneira possível. Por exemplo:</p>
+
+            <p> A finalidade do serviço: para que ele serve?;</p>
+
+            <p>Prazo para realização do serviço;</p>
+
+            <p> Quais benefícios esse serviço trará para o seu cliente?</p>
+
+            <p>Quais são as qualificações da empresa e equipe que realizará os serviços e demais observações.</p>
+            <p>Ao se colocar no lugar do seu cliente, fica mais fácil entender e responder a maioria das perguntas sobre
+              o serviço que é oferecido no site da sua empresa.</p>
+
+            <p>Lembre-se sempre de realizar seus serviços da melhor forma possível, condizente com o que diz em seu site
+              para que não hajam problemas.</p>
+            <br><img src="./img/servicos_1.jpeg" alt="" width="100%" height="300px">
+          </div>
+
+          <div class="col-lg-4">
+            <div class="text-2">
+              <p>Uma dica que pode ser bem aproveitada é descrever o seu serviço em tópicos. Essa técnica alivia a
+                sensação do cliente de estar lendo um textão e assim, não ficará cansativo.
+
+                Seguindo essa dica, facilitará a leitura e visualização de todas as informações necessárias para que o
+                cliente tome a decisão de fechar negócio e pagar ou não por aquele serviço oferecido no site da sua
+                empresa.
+
+                Essa etapa é importante pois ao acessar seu site e ir em busca dos serviços que você oferece, o
+                potencial cliente irá visualizar a página de forma rápida e se a descrição estiver em tópicos será mais
+                fácil para ele identificar o que quer ler.</p>
+            </div>
+            <img src="./img/servicos_2.jpeg" alt="" width="100%" height="300px">
+          </div>
+
+          <div class="col-lg-4">
+            <div class="txt-3">
+              <p> Quando um cliente acessa o seu site em busca de alguns serviços, ele procurará saber quais são as
+                especificações do seu serviço antes de decidir se vai ou não fechar negócio com sua empresa. Muitas
+                pessoas não sabem, mas a descrição dos serviços é fundamental para o entendimento do cliente e também
+                para a tomada de decisão da compra.</p>
+
+              <p>Você deve sempre se atentar a adicionar uma descrição completa em todos os serviços do seu site, para
+                que não perca nenhuma oportunidade de negócio por falta de informações dos serviços prestados pela sua
+                empresa, causando a insegurança e desistência de possíveis clientes.</p>
+              </div>
+            <div>
+              <img src="./img/servicos_3.jpeg" alt="" width="100%" height="300px">
+
+            </div>
+         
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Desenvolvido por Raphael Ferreira Soares</p>
+  </footer>
 
 </body>
+
 </html>
